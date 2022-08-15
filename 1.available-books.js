@@ -1,3 +1,4 @@
+"use Strict";
 console.log(`welcome to the first code challenge of js`);
 
 // each book will have
@@ -11,7 +12,7 @@ console.log(`welcome to the first code challenge of js`);
 // restock - default 5 units
 
 // using classes
-class Book {
+export class Book {
   constructor(title, author, isbn, numCopies) {
     (this.title = title),
       (this.author = author),
@@ -56,8 +57,8 @@ class Book {
 
 const jungleBook = new Book("jungle book", "rudyard kipling", 4444444, 1);
 
-console.log(jungleBook.available);
+console.log(`the jungle book is ${jungleBook.available}`);
 jungleBook.sell();
-console.log(jungleBook.available);
+console.log(`the jungle book is ${jungleBook.available}`);
 jungleBook.restock(11);
-console.log(jungleBook.available);
+console.log(`the jungle book is ${jungleBook.available}`);

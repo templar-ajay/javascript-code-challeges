@@ -1,0 +1,19 @@
+{
+  "name": "javascript-code-challeges",
+  "version": "1.0.0",
+  "description": "###### source - linkedin learning - javascript code challenges",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/templar-command0/javascript-code-challeges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/templar-command0/javascript-code-challeges/issues"
+  },
+  "homepage": "https://github.com/templar-command0/javascript-code-challeges#readme",
+  "type":"module"
+}
